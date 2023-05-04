@@ -1,0 +1,27 @@
+/* Custom CSS */
+
+/* Set background color */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Set margin for top-level headings */
+h1,
+h2 {
+  margin-top: 50px;
+}
+
+/* Set margin for images */
+img {
+  margin-bottom: 20px;
+}
+
+/* Set padding for container */
+.container {
+  padding: 50px;
+}
+
+/* Set border radius for images */
+.col img {
+  border-radius: 10px;
+}
