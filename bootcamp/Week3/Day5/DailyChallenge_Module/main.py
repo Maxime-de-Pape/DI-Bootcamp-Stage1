@@ -17,3 +17,5 @@ for site in sites:
     print(f"Page load time for {site}: {load_time} seconds")
 
 
+
+
