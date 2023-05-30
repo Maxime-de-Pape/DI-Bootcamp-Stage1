@@ -1,0 +1,9 @@
+<h1>People</h1>
+<ul>
+    {% for person in people %}
+        <li>
+            <a href="{% url 'person_view' person.id %}">{{ person.name }}</a>
+            - Age: {{ person.age }}, Country: {{ person.country }}
+        </li>
+    {% endfor %}
+</ul>
